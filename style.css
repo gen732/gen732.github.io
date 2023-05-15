@@ -18,12 +18,12 @@ h2 {
     font-size: 16pt;
     outline: black;
     margin-top: 100px;
-    flex-direction: column;
+    
 }
 .flex-items {
-    text-align: center;
+    background-color: black;
     border: 1px solid; padding: 10px;
-    border: 2px solid rgb(8, 8, 8);
-    margin: 150px 150px 150px 750px;
+    border: 2px solid black;
+    margin: 50px 50px 50px 50px;
 
 }
