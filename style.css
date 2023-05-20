@@ -1,3 +1,13 @@
+
+
+  .topnav {
+    font-family: pirata one;
+    font-size: x-large;
+    text-align: center;
+    
+  }
+a { color: black;}
+
 body {
   font-size: larger;
   background-color: linen;
@@ -17,16 +27,12 @@ h3 {
   font-family: pirata one;
 }
 .grid-container {
-  background-color: rgb(109, 85, 85);
   display: grid;
   grid-template-columns: 1fr;
-  border: 3px solid black;
   grid: row;
   padding: 5px;
-  
-  margin-right: 350;
-  
-  background-color: linen;
+  margin-right: 350px;
+  margin-left: 350px;
 }
 .grid-items {
   align-items: center;
@@ -37,20 +43,13 @@ h3 {
   padding: 5px;
 }
 .flex-container {
-  
-  
-  flex-wrap: wrap;
-  -ms-flex-align: center;
   font-family: pirata one;
   font-size: 16pt;
   outline: black;
   margin-top: 50px;
   margin-left: 350px;
- 
 }
 .flex-items {
-  
-  align-items: center;
   background-color: linen;
   padding: 20px;
   border: 2px solid black;
