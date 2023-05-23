@@ -1,12 +1,11 @@
-
-
-  .topnav {
-    font-family: pirata one;
-    font-size: x-large;
-    text-align:center;
-    
-  }
-a { color: black;}
+.topnav {
+  font-family: pirata one;
+  font-size: x-large;
+  text-align: center;
+}
+a {
+  color: black;
+}
 
 body {
   font-size: larger;
@@ -27,27 +26,29 @@ h3 {
   font-family: pirata one;
 }
 .grid-container {
+  justify-items: center;
+  font-size: larger;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid: row;
   padding: 5px;
-  margin-right: 350px;
-  margin-left: 350px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 .grid-items {
-  align-items: center;
+  align-items: right;
   border: 3px solid black;
-  width: 500px;
-  height: 700px;
+  width: 350px;
+  height: 550px;
+  justify-self: center;
 
   padding: 5px;
 }
 .flex-container {
+  justify-content: center;
   font-family: pirata one;
   font-size: 16pt;
   outline: black;
-  margin-top: 50px;
-  margin-left: 350px;
 }
 .flex-items {
   background-color: linen;
