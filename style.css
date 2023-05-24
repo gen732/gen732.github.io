@@ -25,6 +25,19 @@ h2 {
 h3 {
   font-family: pirata one;
 }
+
+.flex-container {
+  justify-content: center;
+  font-family: pirata one;
+  font-size: 16pt;
+  outline: black;
+}
+.flex-items {
+  background: linen;
+  padding: 20px;
+  border: 3px solid black;
+  margin: 50px 50px 50px 50px;
+}
 .grid-container {
   font-family: pirata one;
   justify-items: center;
@@ -45,16 +58,4 @@ h3 {
   justify-self: center;
 
   padding: 5px;
-}
-.flex-container {
-  justify-content: center;
-  font-family: pirata one;
-  font-size: 16pt;
-  outline: black;
-}
-.flex-items {
-  background: linen;
-  padding: 20px;
-  border: 3px solid black;
-  margin: 50px 50px 50px 50px;
 }
