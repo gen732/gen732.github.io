@@ -10,7 +10,7 @@ a {
 body {
   font-size: larger;
   background-color: linen;
-  background: radial-gradient(rgb(243, 242, 238) 10%, rgb(223, 223, 101) 100%);
+  background: radial-gradient(rgb(243, 242, 238) 20%, rgb(126, 212, 28) 100%);
 }
 h1 {
   margin-top: 40px;
@@ -26,6 +26,7 @@ h3 {
   font-family: pirata one;
 }
 .grid-container {
+  font-family: pirata one;
   justify-items: center;
   font-size: larger;
   display: grid;
@@ -36,6 +37,7 @@ h3 {
   margin-left: 50px;
 }
 .grid-items {
+  background: linen;
   align-items: right;
   border: 3px solid black;
   width: 350px;
@@ -51,8 +53,8 @@ h3 {
   outline: black;
 }
 .flex-items {
-  background-color: linen;
+  background: linen;
   padding: 20px;
-  border: 2px solid black;
+  border: 3px solid black;
   margin: 50px 50px 50px 50px;
 }
